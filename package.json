@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "tests": "codeceptjs run --verbose",
+    "test": "codeceptjs run --verbose --grep "
+  },
+  "dependencies": {
+    "codeceptjs": "^3.5.7",
+    "playwright": "^1.39.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}

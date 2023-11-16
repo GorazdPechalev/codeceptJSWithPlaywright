@@ -1,0 +1,19 @@
+{
+    "ts-node": {
+        "files": true
+    },
+    "compilerOptions": {
+        "target": "ES2022",
+        "lib": [
+            "ES2022",
+            "DOM"
+        ],
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "strictNullChecks": true,
+        "resolveJsonModule": true,
+        "types": [
+            "codeceptjs"
+        ],
+    },
+}
